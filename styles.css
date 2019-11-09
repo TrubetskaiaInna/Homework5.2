@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 467px;
+}
+
+#wrapperCarousel {
+  display: flex;
+  width: 700px;
+  height: 467px;
+  border: 5px solid forestgreen;
+  overflow: hidden;
+  position: relative;
+}
+
+.wrapperImage {
+  display: flex;
+}
+
+.buttonLeft, .buttonRight {
+  position: absolute;
+  bottom: 74%;
+  background-color: gainsboro;
+  font-size: 45px;
+  opacity: 0.4;
+  outline: none;
+}
+
+.buttonLeft {
+  left: 280px;
+}
+
+.buttonRight {
+  right: 280px;
+}
+
+.buttonLeftSide, .buttonRightSide {
+  position: absolute;
+  background-color: gainsboro;
+  font-size: 30px;
+  opacity: 0.1;
+  outline: none;
+  width: 50%;
+  height: 100%;
+}
+
+.buttonLeftSide {
+  left: 0;
+}
+
+.buttonRightSide {
+  right: 0;
+}
